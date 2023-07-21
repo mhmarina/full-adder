@@ -42,14 +42,6 @@
   )
 ;
 
-;n-bit-addr: Takes two lists of 1-bit integers and a 1-bit integer for carry-in. It returns a pair of a list
-;of 1-bit integers, and a 1-bit integer for carry-out
-;Note: You can assume the lists are the same size
-;Note: Result should be a pair: (list-sum . carry-out)
-;Note: It must use the function fulladdr.
-; recursively call fulladder
-
-
 ; testing according to truth table of a full adder
 (fulladder 0 0 0) ; 0 0 
 (fulladder 0 0 1) ; 1 0
